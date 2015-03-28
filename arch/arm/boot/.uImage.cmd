@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/uImage := /bin/bash /opt/Embedsky/linux_kernel_TQ_use/scripts/mkuboot.sh -A arm -O linux -T kernel -C none -a 0x10008000 -e 0x10008000 -n 'Linux-3.0.35-2508-g54750ff-g6803af2-dirty' -d arch/arm/boot/zImage arch/arm/boot/uImage
